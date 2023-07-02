@@ -71,13 +71,10 @@ Here I wrote about my latest jobs. If you want more - ask me direclty.
 + [HappyProgDigital](https://happyprogdigital.ru) company
 
 ## Courses:
-*C++ and C# official documentation
-
-*HTML, JS and CSS Tutorials on web
-
-*Unity on [ULearn](https://learn.unity.com)
-
-*RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
++ C++ and C# official documentation
++ HTML, JS and CSS Tutorials on web
++ Unity on [ULearn](https://learn.unity.com)
++ RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Languages:
 1. English - Intermediate(B1). I am freely speaking with foreign people on english, watch serials, films and TV, but my grammar skills are low.
