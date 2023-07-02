@@ -67,9 +67,8 @@ console.log(factorial(10)); //3628800
 ## Jobs:
 Here I wrote about my latest jobs. If you want more - ask me direclty.
 
-*SkyEng, SkySmart company [SkyEng](https://study.skyeng.ru)
-
-*HappyProgDigital company [HappyProgDigital](https://happyprogdigital.ru)
++ [SkyEng](https://study.skyeng.ru) company
++ [HappyProgDigital](https://happyprogdigital.ru) company
 
 ## Courses:
 *C++ and C# official documentation
