@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #283149;
+    background-color: #404B69;
     color: #DBEDF3;
     font-family: 'Roboto', sans-serif;
 }
@@ -20,13 +20,17 @@ nav{
 
 section{
     margin: 10px 0;
-    background-color: #404B69;
     padding: 5px;
-    border-radius: 10px;
+    border-top: solid 1px #283149;
 }
 
 code{
     font-weight: bold;
+}
+
+footer{
+    background-color: #283149;
+    border-radius: 10px;
 }
 
 h2{
@@ -68,7 +72,7 @@ nav ul li
 
 nav ul li:hover
 {
-    background: #283149;
+    background: #404B69;
 }
 
 a.navLink{
@@ -95,7 +99,8 @@ a.navLink:hover{
 .flexRow{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .tooltip {
