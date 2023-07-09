@@ -91,7 +91,7 @@
                     // recursive function that calc factorial of any natural number(in the 32-bit integer diapason)
                     function factorial(number){
                         parseInt(number);
-                        if (number < 0)   return 0;
+                        if (number &lt 0)   return 0;
                         if (number === 0) return 1;
                         else              return number * factorial(--number);
                     }
@@ -107,13 +107,13 @@
         <section id="Projects">
             <h2>My projects:</h2>
             <div class="flexRow">
-                <div class="project tooltip" tooltip="Project 1 in progress">
+                <div class="project tooltip" data-tooltip="Project 1 in progress">
                     <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 1"></a>
                 </div>
-                <div class="project tooltip" tooltip="Project 2 in progress">
+                <div class="project tooltip" data-tooltip="Project 2 in progress">
                     <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 2"></a>
                 </div>
-                <div class="project tooltip" tooltip="Project 3 in progress">
+                <div class="project tooltip" data-tooltip="Project 3 in progress">
                     <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 3"></a>
                 </div>
             </div>
