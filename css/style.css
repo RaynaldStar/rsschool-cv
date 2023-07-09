@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color: #283149;
+    color: #DBEDF3;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #F73859;
+    border-radius: 10px;
+    padding: 0;
+}
+
+section{
+    margin: 10px 0;
+    background-color: #404B69;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+code{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+h2:hover{
+    color: black;
+}
+
+p{
+    padding: 10px 0;
+    font-style: italic;
+}
+
+a{
+    font-weight: bolder;
+}
+
+a:link{
+    color: #DBEDF3;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #DBEDF3;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F73859;
+    text-decoration: none;
+
+}
+
+nav ul li
+{
+    padding: 20px;
+}
+
+nav ul li:hover
+{
+    background: #283149;
+}
+
+.navLink{
+    font-size: 1rem;
+}
+
+.codeContainer{
+    margin: 0 auto;
+    text-align: justify;
+    color: #17B978;
+    font-weight: bolder;
+}
+
+.project{
+    background-color: #283149;
+    border-radius: 10px;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tooltip {
+	cursor: help;
+    border-bottom: 1px dotted #F73859;
+}
+
+.tooltip::after {
+	background:  #283149;
+	border-radius: 8px 8px 8px 0px;
+	box-shadow: 1px 1px 10px #F73859;
+	color: #DBEDF3;
+	content: attr(tooltip);
+	margin-top: -24px;
+	opacity: 0;
+	padding: 3px 7px;
+	position: absolute;
+	visibility: hidden;		
+	transition: all 0.5s ease-in-out;
+}
+		
+.tooltip:hover::after {
+	opacity: 1;
+	visibility: visible;
+}
+
+.SVG{
+    width: 4rem;
+}
+
+.SVG:hover{
+    filter: invert(33%) sepia(31%) saturate(4773%) hue-rotate(329deg) brightness(98%) contrast(98%);
+}
