@@ -3,21 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>my CV Bekkulov NR</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV by Nik Bekkulov</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>Hello world too!</p>
-    <nav>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
-    </nav>
-    <footer>RS School Stage 0</footer>
+    <header>
+        <nav>
+            <ul class="flexRow">
+                <li><a class="navLink" href="#AboutMe">About me</a></li>
+                <li><a class="navLink" href="#Contacts">Contacts</a></li>
+                <li><a class="navLink" href="#Skills">Skills</a></li>
+                <li><a class="navLink" href="#CodeExample">Code example</a></li>
+                <li><a class="navLink" href="#Projects">Projects</a></li>
+                <li><a class="navLink" href="#Jobs">Jobs</a></li>
+                <li><a class="navLink" href="#Courses">Courses</a></li>
+                <li><a class="navLink" href="#Education">Education</a></li>
+                <li><a class="navLink" href="#Languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="AboutMe">
+            <h2>Nik Bekkulov</h2>
+            <img src="assets/images/myPhoto.png" alt="Nik Bekkulov">
+            <h1>Software Engineer</h1>
+            <h2>Briefly about me:</h2>
+            <p>
+                I started my way of studying programming back in 2011 in the first year of software engineering in ASTU.
+                After four years of education I went to St.Petersburg for a year to see the big city and live and work there.
+                Few years later I decide to get pedagogics education and last two years I am teaching children from 8 to 18 years IT disciplines.
+                Nowadays I am IT-teacher and second year master student of TSTU in AI speciality.
+            </p>
+            <p>
+                During my life I trying many different jobs - it was a great experience.
+                You can ask me about it in personal.
+                I like teaching children - it is honor to see that my students reach new competence level and get new usable skills.
+            </p>
+            <p>
+                I am really love games and dreams to be coolest game master that creates truly incredible games and game worlds.
+                So I am learning how to work with Unity engine and study tech documentation of new versions of C# language and also 3d modeling in Blender.
+                I'm inspired by game developer Todd Howard in his early years when he was working on the creation of Morrowind game.
+                Credo: "To do games that I want to play by myself. To do games that inspire people.
+                To do games that give you new experience and exciting adventures." - is my credo.
+            </p>          
+        </section>
+        <section id="Contacts">
+            <form action="#">
+                <h2>Contact information:</h2>
+                <ul>
+                    <li>Phone: +7(900) 491-74-94</li>
+                    <li>Email: nbrmailteens@yandex.ru</li>
+                    <li>Telegram: @Nik_Bekkulov</li>
+                    <li>Discord: Nik Bekkulov</li>
+                </ul>
+                <!-- <div class="form_info">
+                    <label for="emailText">Text here:</label>
+                    <input type="text" id="emailText">
+                </div>
+                <button>Email me</button> -->
+            </form>
+        </section>
+        <section id="Skills">
+            <h2>Skills and Proficiency:</h2>
+            <ul>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Assembler for x86 Intel processors</li>
+                <li>Lua</li>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript</li>
+                <li>XAML, XML</li>
+                <li>SQL, LINQ</li>
+                <li>Git, GitHub</li>
+                <li>Visual Studio, QT Creator, VS Code, MS SQL Server</li>
+                <li>Unity, Roblox</li>
+                <li>Blender</li>
+                <li>Krita, Photoshop</li>
+            </ul>
+        </section>
+        <section id="CodeExample">
+            <h2>Code example:</h2>
+            <p>This is my example of a tiny simple function on JS:</p>
+            <div class="codeContainer">
+                <code>
+                    // recursive function that calc factorial of any natural number(in the 32-bit integer diapason)
+                    function factorial(number){
+                        parseInt(number);
+                        if (number < 0)   return 0;
+                        if (number === 0) return 1;
+                        else              return number * factorial(--number);
+                    }
+                    // function test
+                    console.log(factorial(-7)); //0
+                    console.log(factorial(0));  //1
+                    console.log(factorial(5));  //120
+                    console.log(factorial(7));  //5040
+                    console.log(factorial(10)); //3628800
+                </code>
+            </div>
+        </section>
+        <section id="Projects">
+            <h2>My projects:</h2>
+            <div class="flexRow">
+                <div class="project tooltip" tooltip="Project 1 in progress">
+                    <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 1"></a>
+                </div>
+                <div class="project tooltip" tooltip="Project 2 in progress">
+                    <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 2"></a>
+                </div>
+                <div class="project tooltip" tooltip="Project 3 in progress">
+                    <a href="#Projects"><img class="SVG" src="assets/images/project.svg" alt="Project 3"></a>
+                </div>
+            </div>
+        </section>
+        <section id="Jobs">
+            <h2>Jobs:</h2>
+            <p>Here I wrote about my latest jobs. If you want more - ask me direclty.</p>
+            <a href="https://skysmart.ru" target="_blank" rel="noopener noreferrer">SkySmart</a>
+            <a href="https://happyprogdigital.ru" target="_blank" rel="noopener noreferrer">HappyProgDigital</a>
+        </section>
+        <section id="Courses">
+            <h2>Courses:</h2>
+            <ul>
+                <li>C++ and C# official documentation</li>
+                <li>Unity on<a href="https://learn.unity.com" target="_blank" rel="noopener noreferrer">ULearn</a></li>
+                <li>HTML, JS and CSS Tutorials on web</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+        </section>
+        <section id="Education">
+            <h2>Education:</h2>
+            <p>ASTU Astrakhan State Technical University 2011-2015. Software engineer</p>
+            <p>TGMPI Rachmaninov Government Musician Pedagogical Institute 2018-2022. Artificial education</p>
+            <p>TSTU Tambov State Technical University 2022-2024. AI automatization</p>
+        </section>
+        <section id="Languages">
+            <h2>Languages:</h2>
+            <p>English - Intermediate(B1). I am freely speaking with foreign people on english, watch serials, films and TV, but my grammar skills are low.</p>
+            <p>Russian - Native speaker</p>
+        </section>
+    </main>
+    <footer class="flexRow">
+        <a href="https://vk.com/rainald8star" target="_blank" rel="noopener noreferrer">© 2023 by Nik Bekkulov</a>
+        <a href="https://github.com/RaynaldStar" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">
+            <img class="SVG" src="assets/images/rs_school_js.svg" alt="RS School">
+        </a>
+    </footer>
+    <script src="/js/app.js"></script>
 </body>
 </html>
