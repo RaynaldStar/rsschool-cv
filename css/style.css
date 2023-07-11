@@ -24,6 +24,11 @@ section{
     border-top: solid 1px #283149;
 }
 
+pre{
+    display: inline-block;
+    text-align: justify;
+}
+
 code{
     font-weight: bold;
 }
@@ -85,6 +90,9 @@ a.navLink:hover{
 }
 
 .codeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin: 0 auto;
     text-align: justify;
     color: #17B978;
